@@ -86,19 +86,19 @@ img {
 }
 
 .container {
-	margin: auto;
-	max-width: 1200px;
+	margin: 0 auto;
+	width: 1200px;
 	padding: 0 15px;
 }
 
 .section {
-	padding: 94px 0;
+	padding-top: 94px;
 }
 
 /*          HEADER          */
 
 .header {
-	border: 1px solid #ECECEC
+	border-bottom: 1px solid #ECECEC;
 }
 
 .header-logo {
@@ -267,6 +267,8 @@ img {
 }
 
 .team-sub-title {
+	margin-bottom: 10px;
+
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.9;
@@ -360,14 +362,18 @@ text-align: center;
 }
 
 .footer-text {
+	margin-bottom: 9px;
+
 	font-size: 14px;
 	line-height: 1.71;
 	color: var(--white-color);
 }
 
-.footer-link {
-	padding: 5px 0;
+.footer-item + .footer-item {
+	margin-top: 9px;
+}
 
+.footer-link {
 	font-size: 14px;
 	line-height: 1.71;
 	font-family: inherit;
